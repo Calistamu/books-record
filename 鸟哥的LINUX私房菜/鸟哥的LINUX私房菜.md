@@ -85,7 +85,7 @@ BIOS与CMOS
 
 操作系统是程序，是软件。
 
-### 第1章 LINUX是什么
+### 第1章 Linux是什么
 
 [Multics](https://www.multicians.org/)
 
@@ -99,4 +99,78 @@ BIOS与CMOS
 硬件基础上开发内核，每种操作系统内核不同，Windows没有办法可以安装到MAC上。
 * LINUX具有可移植性。搜寻很多网络教程发现确实如此，如果mac和windows双系统就要使用软件（虚拟环境），而windows与linux，只需要不同的操作系统在不同磁盘上，当然虚拟环境的使用也是支持的。
 
+[X Window System](https://baike.baidu.com/item/X-WINDOW/2769585
+)与X windows(没找到是什么，猜测是想表达一种操作系统)不同。
+
 Open Source(GNU、BSD、Apache)与Close Source(Freeware、Shareware)
+
+### 第2章 Linux如何学习
+
+#### 学习心态
+你要耐得住寂寞，要有刻苦耐劳的精神。
+
+手机上的Linux了解网站：[LiMo基金会](http://www.limofoundation.org/)、[Linux手机论坛](http://www.lipsforum.org/)、[OpenMoko网站](http://www.openmoko.com/)、[Google手机平台](http://code.google.com/android/)
+
+嵌入式系统需要linux kernel+驱动程序结合，[酷学园](www.study-area.org)
+
+要怎么收获就怎么栽。
+
+不论学什么系统，“从头学起”是很重要的。
+
+必备知识：  
+1.计算机概论和硬件相关知识    
+2.从LINUX安装和命令开始  
+3.linux操作系统的基础技能：用户/用户组的概念、权限的观念、程序的定义、权限的概念，需要了解系统。  
+4.学会vi  
+5.shell即shell脚本：命令行界面就是一个名为shell的软件,shell中的软件很多：正则表达式、管道命令、数据流重定向等  
+6.会软件管理员：用于安装驱动程序或者安装额外软件，tarball/rpm/dpkg等  
+7.网络基础：IP概念、路由概念等  
+[计算机基础](http://www.study-area.org/compu/compu.htm)  
+[网络基础](http://www.study-area.org/network/network.htm)
+
+一本好的工具书是需要的，不论是未来作为查询之用，还是在正确的学习方法上。
+
+你必须要不断地重复练习才会将一件事情记得比较熟。实践+摸索。
+* 参考他人经验，要留意版本
+
+#### 处理问题
+
+我们是人不是神。
+
+1. 自己主机/网络数据库上查询How-To或FAQ
+* [Linux自身文件数据](/usr/share/doc)
+* [CLDP中文文件计划](http://linux.org.cn/CLDP)
+* [TLDP=The LINUX Documentation Project](http://tldp.org/)几乎列出了所有linux上可以看到的文献数据，各种how-to的文章，英文。
+* google
+* [鸟哥的网站](http://linux.vbird.org/Searching.php)
+2. 注意信息输出，自行解决疑难杂症
+* 看错误信息，网络服务看/var/log/中查阅log file
+3. 搜寻过后，注意网络礼节，大胆发言  
+[提问的智慧](https://phorum.vbird.org/viewtopic.php/?t=96)
+* 像胜利者那样提问---聪明、自信、有解决问题的思路，只是偶尔在特定的问题上需要获得一点帮助。
+* 给出付出的努力，针对性的问题，自己挣回答案，有完成的能力和决心，不要错字，言简意赅。
+* 三思而后问
+* 如何精准描述问题：  
+  1.明确症状  
+  2.问题发生的环境
+  3.提问前怎样去研究和理解该问题
+  4.采取了什么样的步骤（根据时间轴）
+  5.步骤之后产生的影响和变更
+  6.只说症状不说猜想
+  7.请给我指示与请告诉我答案是有区别的
+* RTFM （Read The Fucking Manual）与STFW （Search The Fucking Web）---说明该咨询易获得以及自己应该先搜索。
+* 对他祖母般的慈祥表示感謝
+不要重复发表问题在各个主要的讨论区。
+4. Netman给的建议  
+windows救命三键Ctrl+Alt+Delete。  
+系统设计文件目录。  
+记录、整理和归档错误信息+引发状况+解决方法。  
+好文章copy归档，尊重版权。  
+作为用户，迁就机器。作为开发者，机器迁就人。  
+脚本：偷-改-通。  
+windows设置不好可以骂它，Linux设置好了要感激。
+
+学习原动力：成就感+兴趣。不排斥、多接触。不同环境下，解决问题的方法有很多种，只要行得通，就是好方法。
+
+### 主机规划和磁盘分区
+
