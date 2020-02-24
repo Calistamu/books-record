@@ -87,3 +87,16 @@ BIOS与CMOS
 
 ### 第1章 LINUX是什么
 
+[Multics](https://www.multicians.org/)
+
+一个关于UNIX（BSD-UNIX like）,MINIX,GNU项目（GPL授权模式、GCC、Emacs、GLIBC、Bash shell、FSF）,LINUX的故事。  
+&emsp;&emsp;分时操作系统CTSS---Multics项目想要发展壮大CTSS---为了太空旅游游戏产生的汇编语言写成的Unics---改进B语言后C语言写成的UNIX，产生分支BSD---UNIX收回版权，产生收费的Minix(mini Unix)。同时，GNU产生，推出GCC(编译器)、Emacs（编辑器，纠错）,成立FSF（自由软件基金会）---参考Minix基于Intel386加入bash环境和gcc等编译程序的linux0.02内核---linux参考POSIX标准（针对UNIX与一些软件运行时的标准）改进能够与UNIX兼容共享---linux开放壮大，模块化，有了版本和distributions
+* 理解GPL的Free。linux是因为FTP网站目录linux,企鹅因为被咬了。CLE项目开发套件对linux汉化。
+* Linux版本与distributions:  
+  linux版本编号是指kernel内核版本：主版本.次版本。释出版本-修改版本。主次版本为奇，2.5.xx,开发中；为偶，2.6.xx,稳定版。  
+  linux distribution可完全安装套件或linux发布商套件=kernel+softwares+tools。规范distributions的标准：LSB、FHS。distributions分为两大类：1.RPM方式安装软件的Red Hat、Fedora、SuSE等。2.使用dkpg安装方式的Debian、Ubuntu、B2D等。商业推荐Red Hat、SuSE等。个人推荐：Fedora、Ubuntu、OpenSuSE等
+
+硬件基础上开发内核，每种操作系统内核不同，Windows没有办法可以安装到MAC上。
+* LINUX具有可移植性。搜寻很多网络教程发现确实如此，如果mac和windows双系统就要使用软件（虚拟环境），而windows与linux，只需要不同的操作系统在不同磁盘上，当然虚拟环境的使用也是支持的。
+
+Open Source(GNU、BSD、Apache)与Close Source(Freeware、Shareware)
